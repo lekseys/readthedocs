@@ -19,3 +19,4 @@ Contents
    usage
    api
    rotate
+   api2
