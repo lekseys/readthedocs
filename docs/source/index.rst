@@ -8,6 +8,28 @@ Welcome to Lumache's documentation!
 
 Абзац 3
 
+.. figure:: pilot-detmir.jpg
+   :scale: 50 %
+   :alt: map to buried treasure
+
+   This is the caption of the figure (a simple paragraph).
+
+   The legend consists of all elements after the caption.  In this
+   case, the legend consists of this paragraph and the following
+   table:
+
+   +-----------------------+-----------------------+
+   | Symbol                | Meaning               |
+   +=======================+=======================+
+   | Х  | Campground            |
+   +-----------------------+-----------------------+
+   | Z  | Lake                  |
+   +-----------------------+-----------------------+
+   | V   | Mountain              |
+   +-----------------------+-----------------------+
+
+
+
 .. image:: pilot-detmir.jpg
 
 В разделе :doc:`usage` более подробная информация, включая :ref:`installation`.
