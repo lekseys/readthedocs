@@ -7,6 +7,8 @@ Welcome to Lumache's documentation!
 
 Абзац 3
 
+.. image:: pilot-detmir.jpg
+
 В разделе :doc:`usage` более подробная информация, включая :ref:`installation`.
 
 .. note::
