@@ -1,3 +1,7 @@
+================
+The main heading
+================
+
 Welcome to Lumache's documentation!
 ===================================
 
