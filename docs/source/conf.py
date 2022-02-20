@@ -7,7 +7,7 @@ project = 'РЛЭ аэростат тепловой'
 #author = 'Graziella'
 
 release = '0.1'
-version = '0.1.0'
+version = '0.1.1'
 
 # -- General configuration
 
@@ -33,3 +33,28 @@ html_theme = 'sphinx_rtd_theme'
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
+
+latex_elements = {
+# The paper size ('letterpaper' or 'a4paper').
+'papersize': 'a4paper',
+
+# The font size ('10pt', '11pt' or '12pt').
+'pointsize': '12pt',
+
+'fontpkg': r"""
+\PassOptionsToPackage{bookmarksnumbered}{hyperref}
+
+""",
+
+# Additional stuff for the LaTeX preamble.
+'preamble': r"""
+\usepackage{setspace}
+""",
+
+'footer': r"""
+""",
+
+'maketitle': r'''
+\pagenumbering{arabic}
+''',
+}
