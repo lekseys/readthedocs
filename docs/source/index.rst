@@ -225,11 +225,6 @@ PARAGRAPHS
 """"""""""
 " for paragraphs
 
-------------
-
-Contents
---------
-
 .. toctree::
    usage
    api
