@@ -1,10 +1,6 @@
 API2
 ====
 
-.. autosummary::
-   :toctree: generated
-
-
 Снова разрыв латексом
 
 .. raw:: latex
@@ -12,5 +8,4 @@ API2
 
 После разрыва
 
-
-   lumache
+Конец, всему делу венец!
