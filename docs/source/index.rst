@@ -1,9 +1,9 @@
-================
-The main heading
-================
+====================
+Главнейший заголовок
+====================
 
-Welcome to Lumache's documentation!
-===================================
+Привет участникам слета!
+========================
 
 Первый абзцац
  Текст с отсутпом
@@ -221,14 +221,6 @@ SECTION
 SUBsection
 ----------
 - for subsections
-
-SUBsubsection
-^^^^^^^^^^^^^
-^ for subsubsections
-
-PARAGRAPHS
-""""""""""
-" for paragraphs
 
 .. toctree::
    usage
