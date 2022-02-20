@@ -9,25 +9,23 @@ Welcome to Lumache's documentation!
 Абзац 3
 
 .. figure:: pilot-detmir.jpg
-   :scale: 50 %
+   :scale: 70 %
    :alt: map to buried treasure
 
-   This is the caption of the figure (a simple paragraph).
+   Вид вентиля дежурной горелки и манометра.
 
    The legend consists of all elements after the caption.  In this
    case, the legend consists of this paragraph and the following
    table:
-
    +-----------------------+-----------------------+
    | Symbol                | Meaning               |
    +=======================+=======================+
-   | Х  | Campground            |
+   | Х                     | Campground            |
    +-----------------------+-----------------------+
-   | Z  | Lake                  |
+   | Z                     | Lake                  |
    +-----------------------+-----------------------+
-   | V   | Mountain              |
+   | V                     | Mountain              |
    +-----------------------+-----------------------+
-
 
 
 .. image:: pilot-detmir.jpg
@@ -48,6 +46,15 @@ Welcome to Lumache's documentation!
    Полный перечень эксплуатационной документации на аэростат, которой
    следует руководствоваться владельцу (эксплуатанту) ― приведен в
    формуляре аэростата.
+   
+   
+   Хочется сделать тут разрыв страницы
+.. raw:: latex
+
+    \clearpage
+    
+Новая страница после разрыва страницы.
+    
 
 **Назначение Руководства**
 --------------------------
@@ -174,6 +181,12 @@ Welcome to Lumache's documentation!
    ЗДОРОВЬЮ И ЖИЗНИ. ТЕКСТ ПРЕДУПРЕЖДЕНИЯ ПЕЧАТАЕТСЯ ПРОПИСНЫМИ БУКВАМИ
    В РАМКЕ
 
+Горизонтальная линия ниже
+
+------------
+
+И она же выше
+
    ВНИМАНИЕ. ИСПОЛЬЗУЕТСЯ В СЛУЧАЯХ, КОГДА НЕВЫПОЛНЕНИЕ ПРЕДПИСАННЫХ
    ДЕЙСТВИЙ ИЛИ НЕПРАВИЛЬНЫЕ ДЕЙСТВИЯ МОГУТ ПРИВЕСТИ К НЕЖЕЛАТЕЛЬНЫМ
    ПОСЛЕДСТВИЯМ, К ВОЗНИКНОВЕНИЮ НЕИСПРАВНОСТЕЙ ИЛИ К УМЕНЬШЕНИЮ
@@ -183,7 +196,36 @@ Welcome to Lumache's documentation!
    Выделение шрифта внутри текста используется для выделения ОСОБО
    ВАЖНЫХ ГРУПП СЛОВ ИЛИ ОТДЕЛЬНЫХ СЛОВ, определяющих смысл приведенных
    указаний.
+   
+pythons style guide
 
+#####
+PARTS
+#####
+# with overline, for parts
+
+********
+CHAPTERS
+********
+* with overline, for chapters
+
+SECTION
+=======
+= for sections
+
+SUBsection
+----------
+- for subsections
+
+SUBsubsection
+^^^^^^^^^^^^^
+^ for subsubsections
+
+PARAGRAPHS
+""""""""""
+" for paragraphs
+
+------------
 
 Contents
 --------
